@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import animations from "@midudev/tailwind-animations";
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -7,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      transitionDelay: {
+        2000: "2000ms",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -55,5 +59,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [animations],
 };
