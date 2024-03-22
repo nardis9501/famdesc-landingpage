@@ -13,27 +13,21 @@ export default function Testimonials(props) {
     },
     {
       id: 2,
-      username: "Nardis Del Campo",
-      avatarUrl: "https://avatars.githubusercontent.com/u/48690649?v=4",
+      username: "Liang Ricardo",
+      avatarUrl:
+        "https://media.licdn.com/dms/image/C4E03AQET8X-nNnTmCw/profile-displayphoto-shrink_800_800/0/1658289920385?e=1716422400&v=beta&t=DmGU1Kb-KCMdIxZTlHXyuGmYVCw_M3wsw62EcvizB34",
       testimonial:
         "FamilyTree will be an enhanced, open source, user-centric social network with content of value to everyone globally",
-      job: "CEO at FamilyTree",
+      job: "Full Stack Developer",
     },
     {
       id: 3,
-      username: "Nardis Del Campo",
-      avatarUrl: "https://avatars.githubusercontent.com/u/48690649?v=4",
+      username: "Arian Milanes",
+      avatarUrl:
+        "https://media.licdn.com/dms/image/C5603AQFbNKunevLGHw/profile-displayphoto-shrink_800_800/0/1612466546160?e=1716422400&v=beta&t=FdquD0b4r0nMCkeg8ea1CTpU_od11FJ_adj4KOaJUVI",
       testimonial:
         "FamilyTree will be an enhanced, open source, user-centric social network with content of value to everyone globally",
-      job: "CEO at FamilyTree",
-    },
-    {
-      id: 3,
-      username: "Nardis Del Campo",
-      avatarUrl: "https://avatars.githubusercontent.com/u/48690649?v=4",
-      testimonial:
-        "FamilyTree will be an enhanced, open source, user-centric social network with content of value to everyone globally",
-      job: "CEO at FamilyTree",
+      job: "Full Stack Developer | Laravel-Livewire-ReactJS | Researcher | Instructor Professor",
     },
   ];
 
@@ -53,7 +47,7 @@ export default function Testimonials(props) {
         </svg>
         {users.map((user) => {
           const { username, testimonial, job, avatarUrl, id } = user;
-          console.log(username);
+
           return (
             <div
               key={id}
