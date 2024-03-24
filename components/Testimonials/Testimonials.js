@@ -1,7 +1,9 @@
 "use client";
+import { useAppContext } from "@/app/providers";
 import Image from "next/image";
 
 export default function Testimonials(props) {
+  const { color } = useAppContext();
   const users = [
     {
       id: 1,
@@ -27,13 +29,13 @@ export default function Testimonials(props) {
         "https://media.licdn.com/dms/image/C5603AQFbNKunevLGHw/profile-displayphoto-shrink_800_800/0/1612466546160?e=1716422400&v=beta&t=FdquD0b4r0nMCkeg8ea1CTpU_od11FJ_adj4KOaJUVI",
       testimonial:
         "FamilyTree will be an enhanced, open source, user-centric social network with content of value to everyone globally",
-      job: "Full Stack Developer | Laravel-Livewire-ReactJS | Researcher | Instructor Professor",
+      job: "Full Stack Developer",
     },
   ];
 
   return (
     <>
-      <section className="bg-gradient-to-b from-blue-50 to bg-blue-100 dark:bg-gradient-to-b dark:from-blue-700 to dark:bg-blue-800 pt-4">
+      <section className="bg-white/45 shadow-md shadow-white/5 dark:bg-black/5 dark:shadow-black/5 pt-4">
         <svg
           className="flex flex-col justify-start h-12 mx-10 text-gray-400 dark:text-gray-600"
           viewBox="0 0 24 27"
