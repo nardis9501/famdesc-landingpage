@@ -27,7 +27,7 @@ export default function List(props) {
               } ${
                 color === "red" &&
                 "bg-red-500 hover:bg-red-100 hover:text-red-600 text-red-50"
-              } p-2 my-4 animate-jiggle hover:animate-tada animate-delay-300 animate-duration-slow rounded-lg`}
+              } p-2 my-4  hover:animate-tilt animate-delay-300 animate-duration-slow rounded-lg`}
             >
               {list}
             </li>
