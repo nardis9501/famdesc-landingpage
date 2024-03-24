@@ -1,12 +1,20 @@
 "use client";
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 
 const AppContext = createContext({
   color: "",
   handleThemeColor: () => {},
 });
 export default function Providers({ children }) {
-  const [color, setColor] = useState("blue");
+  const [color, setColor] = useState(() => {
+    const getThemeColorFromStorage = window.localStorage.getItem("themeColor");
+    {
+      return getThemeColorFromStorage ? getThemeColorFromStorage : "blue";
+    }
+  });
+  useEffect(() => {
+    localStorage.setItem("themeColor", color);
+  }, [color]);
   const handleThemeColor = (e) => {
     console.log(e.target.value.toLowerCase());
 
