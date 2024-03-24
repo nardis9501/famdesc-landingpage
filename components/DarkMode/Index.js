@@ -1,8 +1,10 @@
+import { useAppContext } from "@/app/providers";
 import theme from "@midudev/tailwind-animations/src/theme";
 import { useEffect, useState } from "react";
 
 export default function DarkMode(props) {
   const [theme, setTheme] = useState();
+  const { color } = useAppContext();
   useEffect(() => {
     if (
       localStorage.theme === "dark" ||
@@ -80,7 +82,13 @@ export default function DarkMode(props) {
     <>
       <button
         onClick={handleClick}
-        className="mr-2 rounded-full p-2 bg-white dark:bg-blue-900 text-blue-500 hover:bg-blue-500 hover:text-white transition-colors duration-200"
+        className={`mr-2 rounded-full p-2 bg-white ${
+          color === "blue"
+            ? "dark:bg-blue-900 text-blue-500 hover:bg-blue-500"
+            : color === "red"
+            ? "dark:bg-red-900 text-red-500 hover:bg-red-500"
+            : ""
+        }  hover:text-white transition-colors duration-200`}
         type="button"
       >
         {theme}
