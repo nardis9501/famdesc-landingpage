@@ -1,14 +1,14 @@
 "use client";
 
 import Transition from "@/components/Transition/Transition";
-import Providers, { useAppContext } from "./providers";
-import Layout from "@/components/Home/Layout";
+import Providers from "./providers";
+import Home from "@/components/Home/Home";
 
-export default function Home() {
+export default function App() {
   return (
     <Providers>
       <Transition />
-      <Layout />
+      <Home />
     </Providers>
   );
 }

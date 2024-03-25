@@ -5,12 +5,12 @@ import Testimonials from "../Testimonials/Testimonials";
 import List from "../BenefitsList/List";
 import { useAppContext } from "@/app/providers";
 import { fadeIn } from "@/utils/motionTransitions";
-export default function Layout(props) {
+
+export default function Home(props) {
   const { color } = useAppContext();
 
   return (
     <>
-      {/* <Transition /> */}
       <div
         className={`conteiner relative m-auto  md:max-w-[1200px] border-solid border-8  rounded-lg ${
           color === "blue" &&
