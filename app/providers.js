@@ -6,18 +6,19 @@ const AppContext = createContext({
   handleThemeColor: () => {},
 });
 export default function Providers({ children }) {
-  const [color, setColor] = useState(() => {
-    const getThemeColorFromStorage = window.localStorage.getItem("themeColor");
-    {
-      return getThemeColorFromStorage ? getThemeColorFromStorage : "blue";
-    }
-  });
+  const [color, setColor] = useState("");
+
   useEffect(() => {
-    localStorage.setItem("themeColor", color);
+    const getThemeColorFromStorage = localStorage.getItem("themeColor");
+    if (getThemeColorFromStorage) {
+      return setColor(getThemeColorFromStorage);
+    }
+    setColor("blue");
+  }, []);
+  useEffect(() => {
+    color && localStorage.setItem("themeColor", color);
   }, [color]);
   const handleThemeColor = (e) => {
-    console.log(e.target.value.toLowerCase());
-
     setColor(e.target.value.toLowerCase());
   };
   return (
