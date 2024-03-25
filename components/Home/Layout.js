@@ -13,8 +13,12 @@ export default function Layout(props) {
       {/* <Transition /> */}
       <div
         className={`conteiner relative m-auto  md:max-w-[1200px] border-solid border-8  rounded-lg ${
-          color === "blue" && "border-blue-950"
-        } ${color === "red" && "border-red-950"}`}
+          color === "blue" &&
+          "border-blue-950 selection:bg-blue-300 selection:text-blue-900"
+        } ${
+          color === "red" &&
+          "border-red-950 selection:bg-red-300 selection:text-red-900"
+        }`}
       >
         <Header />
 
