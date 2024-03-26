@@ -5,7 +5,7 @@ import Testimonials from "../Testimonials/Testimonials";
 import List from "../BenefitsList/List";
 import { useAppContext } from "@/app/providers";
 import { fadeIn } from "@/utils/motionTransitions";
-
+import TestimonialsSlider from "../Testimonials/TestimonialsSlider";
 export default function Home(props) {
   const { color } = useAppContext();
 
@@ -37,7 +37,7 @@ export default function Home(props) {
             animate="show"
             exit={"hidden"}
           >
-            <div className="sticky top-2 ">
+            <div className="sticky top-2 z-20">
               <Form />
             </div>
             <main>
@@ -50,7 +50,7 @@ export default function Home(props) {
                   4: Hero Shot Photo or Video
                 </div>
               </section>
-              <Testimonials />
+              <TestimonialsSlider />
               <section
                 className={`grid grid-cols-2 p-10 text-2xl${
                   color === "blue" && "text-blue-50"
