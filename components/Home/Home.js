@@ -12,7 +12,7 @@ export default function Home(props) {
   return (
     <>
       <div
-        className={`conteiner relative m-auto  md:max-w-[1200px] border-solid border-8  rounded-lg ${
+        className={`conteiner relative m-auto  md:max-w-[1200px] border-solid border-8 rounded-lg ${
           color === "blue" &&
           "border-blue-950 selection:bg-blue-300 selection:text-blue-900"
         } ${
@@ -25,10 +25,10 @@ export default function Home(props) {
         <div
           className={`flex flex-col items-center w-full bg-gradient-to-b  ${
             color === "blue" &&
-            "from-blue-50 to-blue-300 dark:from-blue-800 dark:to-blue-900"
+            "from-blue-50/80 to-blue-300/80 dark:from-blue-800/80 dark:to-blue-900/80"
           } ${
             color === "red" &&
-            "from-red-50 to-red-300 dark:from-red-800 dark:to-red-900"
+            "from-red-50/80 to-red-300/80 dark:from-red-800/80 dark:to-red-900/80"
           }`}
         >
           <motion.div
