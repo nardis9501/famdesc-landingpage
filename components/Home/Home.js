@@ -52,11 +52,11 @@ export default function Home(props) {
               </section>
               <TestimonialsSlider />
               <section
-                className={`grid grid-cols-2 p-10 text-2xl${
+                className={`grid grid-cols-1 md:grid-cols-2 p-10 text-2xl${
                   color === "blue" && "text-blue-50"
                 } ${color === "red" && "text-red-50"}`}
               >
-                <div className="mr-4">
+                <div className="md:mr-4 mb-4">
                   <List />
                 </div>
                 <Testimonials />
