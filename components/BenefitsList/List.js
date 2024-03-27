@@ -10,7 +10,7 @@ export default function List(props) {
   ];
   return (
     <>
-      <article className="bg-white/45 shadow-md shadow-white/5 dark:bg-black/5 dark:shadow-black/5 p-4 font-medium text-gray-900 dark:text-white text-2xl px-4 py-8 mx-auto text-center lg:py-6 lg:px-6">
+      <article className="bg-white/45 shadow-md shadow-white/5 dark:bg-black/5 dark:shadow-black/5 p-4 font-medium text-gray-900 dark:text-white text-xl lg:text-2xl px-2 py-8 mx-auto text-center lg:py-6 lg:px-6">
         <p>
           This is introductory content that explains your offering in more
           detail. It should follow on benefits of your headline and explain the

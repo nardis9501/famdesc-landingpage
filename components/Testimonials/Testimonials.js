@@ -30,7 +30,7 @@ export default function Testimonials(props) {
             >
               <figure className="max-w-screen-md ">
                 <blockquote>
-                  <p className="text-2xl font-medium text-gray-900 dark:text-white">
+                  <p className="text-xl lg:text-2xl font-medium text-gray-900 dark:text-white">
                     {testimonial}
                   </p>
                 </blockquote>
