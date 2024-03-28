@@ -6,6 +6,7 @@ import List from "../BenefitsList/List";
 import { useAppContext } from "@/app/providers";
 import { fadeIn } from "@/utils/motionTransitions";
 import TestimonialsSlider from "../Testimonials/TestimonialsSlider";
+import FeatureCard from "../BenefitsList/FeatureCard";
 export default function Home(props) {
   const { color } = useAppContext();
 
@@ -69,7 +70,9 @@ export default function Home(props) {
               >
                 1C: A reinforcement statemnt maintain interest
               </h2>
-              <section>3</section>
+              <section>
+                <FeatureCard />
+              </section>
               <h2
                 className={`flex items-center justify-center h-20 text-3xl shadow-md ${
                   color === "blue" && "bg-blue-300"
