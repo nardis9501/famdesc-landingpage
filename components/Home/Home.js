@@ -43,13 +43,18 @@ export default function Home(props) {
             </div>
             <main>
               <section
-                className={`grid grid-cols-2 h-80 w-full p-10  border-solid border-b ${
+                className={`md:grid md:grid-cols-2 items-cente md:place-content-center p-1 md:p-5 border-solid border-b ${
                   color === "blue" && "bg-blue-700 border-blue-500"
                 } ${color === "red" && "bg-red-700 border-red-500"}`}
               >
-                <div className="flex items-center justify-center rounded-md bg-black p-10">
+                <iframe
+                  className="w-full h-full aspect-video rounded-lg"
+                  src="/promo.mp4"
+                  frameborder="0"
+                ></iframe>
+                {/* <div className="flex items-center justify-center rounded-md bg-black p-10">
                   4: Hero Shot Photo or Video
-                </div>
+                </div> */}
               </section>
               <TestimonialsSlider />
               <section
