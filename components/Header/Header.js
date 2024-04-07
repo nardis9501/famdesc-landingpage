@@ -4,6 +4,7 @@ import { fadeIn } from "@/utils/motionTransitions";
 import DarkMode from "../DarkMode/Index";
 import { useAppContext } from "@/app/providers";
 import SelectColor from "../ChangeColor/SelectColor";
+import Image from "next/image";
 
 export default function Header(props) {
   const { color } = useAppContext();
@@ -17,14 +18,26 @@ export default function Header(props) {
       >
         <header className="p-4">
           <div className="flex flex-row justify-between items-center">
-            <span
-              className={`${color === "blue" && "bg-blue-500"} ${
-                color === "red" && "bg-red-500"
-              }  p-4 rounded-lg`}
-            >
-              Logo
-            </span>
-
+            <div>
+              <Image
+                className="hidden md:inline-block"
+                priority
+                src="/LogoPrincipal.svg"
+                alt="FamilyTree logo"
+                width={150}
+                height={150}
+              />
+              <div className="md:hidden flex items-center justify-center bg-[#0e67a4] p-1 rounded-full">
+                <Image
+                  className=" shadow-md bg-white dark:bg-black p-1 w-9 h-9 rounded-full"
+                  priority
+                  src="/logo.svg"
+                  alt="FamilyTree logo"
+                  width={40}
+                  height={40}
+                />
+              </div>
+            </div>
             <span className="flex items-center">
               <DarkMode />
               <div className="">
