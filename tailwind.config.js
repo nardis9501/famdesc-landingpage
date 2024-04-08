@@ -57,6 +57,9 @@ module.exports = {
           900: "#042F07",
           950: "#021704",
         },
+
+        salmon: "#e6816b",
+        bluePantone: "#0E67A4",
       },
     },
   },

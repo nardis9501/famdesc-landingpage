@@ -32,22 +32,14 @@ export default function Cover(props) {
   const options = useMemo(() => optionsParticles, []);
   if (init) {
     return (
-      <div
-        className={`fixed  dark:bg-gray-950 w-full h-full -z-50 mx-auto ${
-          color === "blue"
-            ? "bg-blue-800/50"
-            : color === "red"
-            ? "bg-red-700/30"
-            : ""
-        }`}
-      >
+      <>
         <Particles
           className="absolute  translate-z-0"
           id="tsparticles"
           particlesLoaded={particlesLoaded}
           options={options}
         />
-      </div>
+      </>
     );
   }
   return <></>;

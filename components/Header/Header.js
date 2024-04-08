@@ -16,8 +16,8 @@ export default function Header(props) {
         animate="show"
         exit={"hidden"}
       >
-        <header className="p-4">
-          <div className="flex flex-row justify-between items-center">
+        <header className="fixed z-30 w-full left-0 top-0 border-y-2 border-solid border-t-salmon  border-b-bluePantone  bg-slate-200 dark:bg-gray-900 p-2">
+          <div className="flex m-auto max-w-[1400px] justify-between items-center px-4 py-1 rounded-b-xl  bg-slate-200 dark:bg-gray-900">
             <div>
               <Image
                 className="hidden md:inline-block"
@@ -27,7 +27,7 @@ export default function Header(props) {
                 width={150}
                 height={150}
               />
-              <div className="md:hidden flex items-center justify-center bg-[#0e67a4] p-1 rounded-full">
+              <div className="md:hidden flex items-center justify-center bg-bluePborder-b-bluePantone p-1 rounded-full">
                 <Image
                   className=" shadow-md bg-white dark:bg-black p-1 w-9 h-9 rounded-full"
                   priority
@@ -53,26 +53,6 @@ export default function Header(props) {
                 </form>
               </div>
             </span>
-          </div>
-
-          <div className="w-full grid place-content-center">
-            <h3 className={`flex justify-center font-semibold my-3 text-4xl`}>
-              Family
-              <span
-                className={`${color === "blue" && "text-blue-500"} ${
-                  color === "red" && "text-red-500"
-                }`}
-              >
-                Tree
-              </span>
-            </h3>
-            <h2
-              className={`animate-fade-in text-2xl ${
-                color === "blue" && "text-blue-200"
-              } ${color === "red" && "text-red-200"}`}
-            >
-              A closer and high value social media
-            </h2>
           </div>
         </header>
       </motion.div>
