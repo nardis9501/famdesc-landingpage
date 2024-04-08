@@ -12,7 +12,7 @@ export default function Home(props) {
   const { color } = useAppContext();
 
   return (
-    <div className="absolute w-full z-10 bg-slate-50/90 dark:bg-gray-900/70">
+    <div className="absolute w-full z-10 bg-slate-50/90 dark:bg-gray-900/70 text-gray-900 dark:text-white">
       <div
         className={`conteiner relative m-auto  md:max-w-[1200px]  rounded-lg selection:bg-salmon selection:text-bluePantone`}
       >
@@ -31,7 +31,7 @@ export default function Home(props) {
             </div>
             <main>
               <section
-                className={`md:grid md:grid-cols-2 items-cente md:place-content-center p-1 md:p-8 ${
+                className={`md:grid md:grid-cols-2 items-cente md:place-content-center p-1 md:p-8 text-white ${
                   color === "blue" && "bg-blue-500 shadow-sm shadow-blue-500"
                 } ${color === "red" && "bg-red-500"}`}
               >
