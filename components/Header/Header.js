@@ -5,6 +5,7 @@ import DarkMode from "../DarkMode/Index";
 import { useAppContext } from "@/app/providers";
 import SelectColor from "../ChangeColor/SelectColor";
 import Image from "next/image";
+import SponsorButton from "../sponsor/SponsorButton";
 
 export default function Header(props) {
   const { color } = useAppContext();
@@ -38,21 +39,13 @@ export default function Header(props) {
                 />
               </div>
             </div>
-            <span className="flex items-center">
+            <div className="flex items-center">
               <DarkMode />
-              <div className="">
-                <form className="m-auto md:flex  md:items-center md:place-content-center">
-                  <label
-                    htmlFor="demo-controlled-open-select"
-                    className={`hidden md:block mb-2  text-sm font-medium ${
-                      color === "blue" && "text-blue-900"
-                    } ${color === "red" && "text-red-900"} dark:text-white`}
-                  ></label>
 
-                  <SelectColor />
-                </form>
-              </div>
-            </span>
+              <SelectColor />
+
+              <SponsorButton />
+            </div>
           </div>
         </header>
       </motion.div>
