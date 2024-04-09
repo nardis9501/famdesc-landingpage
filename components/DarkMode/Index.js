@@ -81,7 +81,7 @@ export default function DarkMode(props) {
     <>
       <button
         onClick={handleClick}
-        className={`mr-2 rounded-full p-2 bg-white ${
+        className={`rounded-full p-2 bg-white ${
           color === "blue"
             ? "dark:bg-blue-900 text-blue-500 hover:bg-blue-500"
             : color === "red"
