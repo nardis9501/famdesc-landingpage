@@ -8,6 +8,7 @@ import { fadeIn } from "@/utils/motionTransitions";
 import TestimonialsSlider from "../Testimonials/TestimonialsSlider";
 import FeatureCard from "../BenefitsList/FeatureCard";
 import FrontCover from "../FrontCover/FrontCover";
+import SponsorButton from "../sponsor/SponsorButton";
 export default function Home(props) {
   const { color } = useAppContext();
 
@@ -41,7 +42,7 @@ export default function Home(props) {
                     src="/promo.mp4"
                     frameborder="0"
                   ></iframe>
-                  <p className="p-2">Video of FamilyTree</p>
+                  <p className="p-2 font-semibold">Video of FamilyTree</p>
                 </div>
               </section>
               <TestimonialsSlider />
