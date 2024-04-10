@@ -38,9 +38,8 @@ export default function Home(props) {
               >
                 <div className="flex flex-col justify-center items-center">
                   <iframe
-                    className="w-full h-full aspect-video rounded-lg"
+                    className="w-full h-full aspect-video rounded-lg border-none"
                     src="/promo.mp4"
-                    frameborder="0"
                   ></iframe>
                   <p className="p-2 font-semibold">Video of FamilyTree</p>
                 </div>
