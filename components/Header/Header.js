@@ -12,12 +12,13 @@ export default function Header(props) {
   return (
     <>
       <motion.div
+        className="fixed z-30 w-full left-0 top-0"
         variants={fadeIn("down", 0.5)}
         initial="hidden"
         animate="show"
         exit={"hidden"}
       >
-        <header className="fixed z-30 w-full left-0 top-0 border-y-2 border-solid border-t-salmon  border-b-bluePantone  bg-slate-200 dark:bg-gray-900 p-2">
+        <header className=" border-y-2 border-solid border-t-salmon  border-b-bluePantone  bg-slate-200 dark:bg-gray-900 p-2">
           <div className="flex m-auto max-w-[1400px] justify-between items-center px-4 py-1 rounded-b-xl  bg-slate-200 dark:bg-gray-900">
             <div>
               <Image
