@@ -9,7 +9,7 @@ export default function FrontCover(props) {
       <section className="grid grid-cols-2 h-full max-w-[1300px]">
         <div className="flex flex-col justify-center">
           <h1
-            className={`flex justify-center font-bold my-3 text-7xl text-black dark:text-slate-100`}
+            className={`flex justify-center font-medium my-3 text-7xl text-black dark:text-slate-100`}
           >
             The new Network for families
           </h1>
