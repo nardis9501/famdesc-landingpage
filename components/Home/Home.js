@@ -13,12 +13,17 @@ export default function Home(props) {
   const { color } = useAppContext();
 
   return (
-    <div className="absolute w-full z-10 bg-slate-50/90 dark:bg-gray-900/70 text-gray-900 dark:text-white">
-      <div
-        className={`conteiner relative m-auto  md:max-w-[1200px]  rounded-lg selection:bg-salmon selection:text-bluePantone`}
-      >
-        <Header />
-        <FrontCover />
+    <div className="absolute w-full z-10 bg-slate-50/90 dark:bg-gray-900/90 text-gray-900 dark:text-white">
+      <Header />
+      <div className="">
+        <div className="grid place-content-center drop-shadow-none pt-40 pb-20 bg-gradient-to-bl from-blue-500/90 to-salmon/40">
+          <FrontCover />
+          <div className="inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-salmon/90 pt-32 pb-8 pointer-events-none dark:from-gray-900 absolute"></div>
+          <div className="inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-slate-50/95 pt-24 pb-8 pointer-events-none dark:from-gray-900 absolute"></div>
+        </div>
+        {/* <div className="inset-x-0 top-0 flex justify-center bg-gradient-to-b from-slate-50/90 pt-32 pb-8 pointer-events-none dark:from-slate-900 absolute"></div> */}
+        <div className="inset-x-0 flex justify-center bg-gradient-to-b from-slate-50/95 pt-16 pb-8 pointer-events-none dark:from-gray-900"></div>
+      </div>
 
         <div className={`flex flex-col items-center w-full`}>
           <motion.div
