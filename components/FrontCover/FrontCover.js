@@ -58,9 +58,9 @@ export default function FrontCover(props) {
             />
           </motion.div>
         </section>
-        <div className="inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-slate-50/95 pt-32 pb-8 pointer-events-none dark:from-slate-400 absolute"></div>
+        <div className="inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-slate-50 pt-32 pb-8 pointer-events-none dark:from-slate-400 absolute"></div>
       </div>
-      <div className="inset-x-0 flex justify-center bg-gradient-to-b from-slate-50/95 pt-16 pb-8 pointer-events-none dark:from-slate-400"></div>
+      <div className="inset-x-0 flex justify-center bg-gradient-to-b from-slate-50 pt-16 pb-8 pointer-events-none dark:from-slate-400"></div>
     </>
   );
 }
