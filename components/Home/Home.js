@@ -15,16 +15,11 @@ export default function Home(props) {
   return (
     <div className="absolute w-full z-10 bg-slate-50/90 dark:bg-gray-900/90 text-gray-900 dark:text-white">
       <Header />
-      <div className="">
-        <div className="grid place-content-center drop-shadow-none pt-40 pb-20 bg-gradient-to-bl from-blue-500/90 to-salmon/40">
-          <FrontCover />
-          <div className="inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-salmon/90 pt-32 pb-8 pointer-events-none dark:from-gray-900 absolute"></div>
-          <div className="inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-slate-50/95 pt-24 pb-8 pointer-events-none dark:from-gray-900 absolute"></div>
-        </div>
-        {/* <div className="inset-x-0 top-0 flex justify-center bg-gradient-to-b from-slate-50/90 pt-32 pb-8 pointer-events-none dark:from-slate-900 absolute"></div> */}
-        <div className="inset-x-0 flex justify-center bg-gradient-to-b from-slate-50/95 pt-16 pb-8 pointer-events-none dark:from-gray-900"></div>
-      </div>
+      <FrontCover />
 
+      <div
+        className={`conteiner relative m-auto  md:max-w-[1350px]  rounded-lg selection:bg-salmon selection:text-bluePantone`}
+      >
         <div className={`flex flex-col items-center w-full`}>
           <motion.div
             variants={fadeIn("up", 0.5)}
@@ -37,16 +32,32 @@ export default function Home(props) {
             </div>
             <main>
               <section
-                className={`md:grid md:grid-cols-2 items-cente md:place-content-center p-1 md:p-8 text-white ${
+                className={`md:grid md:grid-cols-2 place-content-center p-1 md:px-24 md:py-8 text-white ${
                   color === "blue" && "bg-blue-500 shadow-sm shadow-blue-500"
                 } ${color === "red" && "bg-red-500"}`}
               >
-                <div className="flex flex-col justify-center items-center">
+                <div className="flex justify-center col-span-2">
+                  <h2 className="text-4xl font-semibold">
+                    Title of the section: brief explanation of the objective
+                    pursued with this audiovisual media.
+                  </h2>
+                </div>
+                <div className="flex flex-col justify-center items-center my-10">
                   <iframe
                     className="w-full h-full aspect-video rounded-lg border-none"
                     src="/promo.mp4"
                   ></iframe>
                   <p className="p-2 font-semibold">Video of FamilyTree</p>
+                </div>
+
+                <p className="flex justify-center items-center ml-4 text-2xl leading-9">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div className="flex justify-center col-span-2">
+                  <SponsorButton isWhite />
                 </div>
               </section>
               <TestimonialsSlider />
