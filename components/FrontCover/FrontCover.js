@@ -9,11 +9,11 @@ export default function FrontCover(props) {
   return (
     <>
       <div
-        className={`grid place-content-center drop-shadow-none pt-40 pb-20 bg-gradient-to-bl  to-slate-50 dark:to-slate-400 ${
+        className={`grid place-content-center drop-shadow-none pt-40 pb-20 bg-gradient-to-bl  to-slate-50 dark:to-gray-950 ${
           color === "blue"
             ? "from-blue-500 via-blue-500/80 dark:via-blue-700"
             : color === "red"
-            ? "from-red-500 via-red-500/80"
+            ? "from-red-500 via-red-500/80 dark:from-red-700/90 dark:via-red-950/90"
             : ""
         }`}
       >
@@ -58,9 +58,9 @@ export default function FrontCover(props) {
             />
           </motion.div>
         </section>
-        <div className="inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-slate-50 pt-32 pb-8 pointer-events-none dark:from-slate-400 absolute"></div>
+        <div className="inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-slate-50 pt-32 pb-8 pointer-events-none dark:from-gray-900 absolute"></div>
       </div>
-      <div className="inset-x-0 flex justify-center bg-gradient-to-b from-slate-50 pt-16 pb-8 pointer-events-none dark:from-slate-400"></div>
+      <div className="inset-x-0 flex justify-center bg-gradient-to-b from-slate-50 pt-16 pb-8 pointer-events-none dark:from-gray-900"></div>
     </>
   );
 }
