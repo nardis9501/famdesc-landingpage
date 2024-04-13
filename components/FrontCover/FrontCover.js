@@ -50,6 +50,7 @@ export default function FrontCover(props) {
             className="md:grid place-content-end drop-shadow-xl hidden"
           >
             <Image
+              priority
               className="rounded-lg"
               src="/familie-cover.jpeg"
               alt="familie-cover"
