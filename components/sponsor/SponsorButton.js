@@ -5,7 +5,7 @@ export default function SponsorButton({ isWhite }) {
   return (
     <>
       <button
-        className={`h-12 w-28  md:h-14 md:w-36 rounded-lg ${
+        className={`h-12 w-full px-2 whitespace-nowrap md:h-14 md:w-36 rounded-lg ${
           !isWhite && "text-white"
         } text-xl md:text-xl font-semibold hover:bg-salmon ${
           isWhite && color === "blue"
