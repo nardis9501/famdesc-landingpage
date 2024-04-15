@@ -85,7 +85,7 @@ export default function Header(props) {
           <div
             className={`${
               !isOpenMenu ? "hidden" : ""
-            } sm:inline-flex flex flex-col sm:flex-row items-start gap-2 sm:items-center w-full md:w-auto mt-4`}
+            } sm:inline-flex flex flex-col sm:flex-row items-start gap-2 sm:items-center w-full md:w-auto mt-4 sm:mt-0`}
           >
             <DarkMode />
 
