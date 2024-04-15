@@ -17,7 +17,7 @@ export default function Header(props) {
   return (
     <>
       <motion.header
-        className="fixed z-30 w-full left-0 top-0 border-y-2 border-solid border-t-salmon  border-b-bluePantone  bg-slate-200 dark:bg-gray-900 p-2"
+        className="fixed z-30 w-full left-0 top-0 border-y-2 border-solid border-t-salmon  border-b-bluePantone  bg-slate-200/75 dark:bg-gray-900/75 backdrop-blur-sm p-2"
         variants={fadeIn("down", 0.5)}
         initial="hidden"
         animate="show"
