@@ -9,6 +9,7 @@ import TestimonialsSlider from "../Testimonials/TestimonialsSlider";
 import FeatureCard from "../BenefitsList/FeatureCard";
 import FrontCover from "../FrontCover/FrontCover";
 import SponsorButton from "../sponsor/SponsorButton";
+import OpenSourceBanner from "../Banner/OpenSourceBanner";
 export default function Home(props) {
   const { color } = useAppContext();
 
@@ -30,6 +31,7 @@ export default function Home(props) {
             <div className="sticky top-2 z-20">
               <Form />
             </div>
+            <OpenSourceBanner />
             <main>
               <section
                 className={`md:grid md:grid-cols-2 place-content-center p-1 md:px-24 md:py-8 text-white ${
