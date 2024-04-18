@@ -18,13 +18,13 @@ export default function FeatureCard(props) {
         <GridBackground key={id} backdropTop backdropBottom>
           <section
             className={
-              "p-8 md:p-16 my-8 m-4 md:mx-8 text-gray-950 dark:text-white  rounded-md bg-white/5 shadow-md shadow-white/5 dark:bg-black/5 dark:shadow-black/5"
+              "p-8 md:p-6 my-8 m-4 md:mx-0  text-gray-950 dark:text-white"
             }
           >
             <h4 className="text-4xl font-bold mb-6">{title}</h4>
             <div className="grid grid-cols-1 md:grid-cols-2 text-2xl">
               <p
-                className={`mb-8 md:mb-0 md:mx-10 ${
+                className={`mb-8 md:mb-0 md:mx-10 rounded-lg p-10 bg-white dark:backdrop-blur dark:bg-slate-900/30 dark:ring-1 dark:ring-inset dark:ring-white/10 shadow-xl ${
                   isEven(id) ? "md:order-last" : ""
                 }`}
               >
