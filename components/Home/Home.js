@@ -14,7 +14,7 @@ export default function Home(props) {
   const { color } = useAppContext();
 
   return (
-    <div className="absolute w-full z-10 bg-slate-50/90 dark:bg-slate-900/90 text-gray-900 dark:text-white">
+    <div className="absolute w-full z-10 bg-slate-50 dark:bg-slate-900 text-gray-900 dark:text-white overflow-hidden">
       <Header />
       <FrontCover />
 
