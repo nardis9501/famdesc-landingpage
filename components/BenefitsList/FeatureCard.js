@@ -22,22 +22,21 @@ export default function FeatureCard(props) {
             }
           >
             <h4 className="text-4xl font-bold mb-6">{title}</h4>
-            <div className="grid grid-cols-1 md:grid-cols-2 text-2xl">
-              <p
-                className={`mb-8 md:mb-0 md:mx-10 rounded-lg p-10 bg-white dark:backdrop-blur dark:bg-slate-900/30 dark:ring-1 dark:ring-inset dark:ring-white/10 shadow-xl ${
-                  isEven(id) ? "md:order-last" : ""
-                }`}
-              >
-                {text}
-              </p>
-
+            <div className="grid grid-cols-1  md:grid-cols-2 text-2xl">
               <Image
                 src={img}
                 alt={title + " image"}
                 width={500}
                 height={300}
-                className="mx-auto h-80 rounded-md"
+                className={` ${
+                  !isEven(id) ? "md:order-last" : ""
+                } mx-auto mb-8 md:mb-0 h-80 rounded-md`}
               />
+              <p
+                className={`md:mx-10 rounded-lg p-10 bg-white dark:backdrop-blur dark:bg-slate-900/30 dark:ring-1 dark:ring-inset dark:ring-white/10 shadow-xl`}
+              >
+                {text}
+              </p>
             </div>
           </section>
         </GridBackground>
