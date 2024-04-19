@@ -15,7 +15,7 @@ export default function OpenSourceBanner(props) {
           >
             Proudly Open Source yor You
             <svg
-              className={`fill-current mx-4 ${
+              className={`octicon octicon-mark-github fill-current mx-4 ${
                 color === "blue"
                   ? "text-blue-500"
                   : color === "red"
@@ -23,7 +23,6 @@ export default function OpenSourceBanner(props) {
                   : "dark:text-white"
               }`}
               aria-hidden="true"
-              class="octicon octicon-mark-github"
               height="58"
               version="1.1"
               viewBox="0 0 16 16"
