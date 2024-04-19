@@ -6,7 +6,7 @@ export default function OpenSourceBanner(props) {
   const { color } = useAppContext();
   return (
     <>
-      <section className="flex items-center justify-center w-full p-6 mb-16 rounded-md bg-white dark:bg-zinc-950/80">
+      <section className="flex items-center justify-center w-full p-6 mb-16 rounded-md bg-white dark:backdrop-blur dark:bg-slate-900/30 dark:ring-1 dark:ring-inset dark:ring-white/10 shadow-xl">
         <p>
           <a
             href="https://github.com/nardis9501/familytree-landingpage/"
