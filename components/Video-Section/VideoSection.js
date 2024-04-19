@@ -24,7 +24,7 @@ export default function VideoSection(props) {
           <p className="p-2 font-semibold">Video of FamilyTree</p>
         </div>
 
-        <p className="flex flex-col my-10 md:ml-4 lg:ml-20 text-2xl lg:leading-9">
+        <div className="flex flex-col my-10 md:ml-4 lg:ml-20 text-2xl lg:leading-9">
           Built on the basis of these pillars:
           <ul className="space-y-4 text-left">
             <li className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -118,7 +118,7 @@ export default function VideoSection(props) {
               <span>We care about our credibility and your trust</span>
             </li>
           </ul>
-        </p>
+        </div>
         <div className="flex justify-center col-span-2">
           <SponsorButton isWhite />
         </div>
