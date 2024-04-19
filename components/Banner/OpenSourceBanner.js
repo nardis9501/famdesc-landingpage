@@ -11,7 +11,7 @@ export default function OpenSourceBanner(props) {
           <a
             href="https://github.com/nardis9501/familytree-landingpage/"
             target="_blank"
-            className="flex items-center gap-1"
+            className="flex items-center gap-1 hover:text-salmon"
           >
             Proudly Open Source yor You
             <svg
