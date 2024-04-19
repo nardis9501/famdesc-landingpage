@@ -7,14 +7,13 @@ export default function VideoSection(props) {
   return (
     <>
       <section
-        className={`md:grid md:grid-cols-2 place-content-center p-1 md:px-24 md:py-8 text-white ${
+        className={`md:grid md:grid-cols-2 place-content-center p-1 md:px-2 md:py-8 text-white ${
           color === "blue" && "bg-blue-500 shadow-sm shadow-blue-500"
         } ${color === "red" && "bg-red-500"}`}
       >
         <div className="flex justify-center col-span-2">
-          <h2 className="text-4xl font-semibold">
-            Title of the section: brief explanation of the objective pursued
-            with this audiovisual media.
+          <h2 className="text-4xl font-semibold capitalize">
+            Created with you in mind: just right for you
           </h2>
         </div>
         <div className="flex flex-col justify-center items-center my-10">
@@ -25,11 +24,100 @@ export default function VideoSection(props) {
           <p className="p-2 font-semibold">Video of FamilyTree</p>
         </div>
 
-        <p className="flex justify-center items-center ml-4 text-2xl leading-9">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+        <p className="flex flex-col my-10 md:ml-4 lg:ml-20 text-2xl lg:leading-9">
+          Built on the basis of these pillars:
+          <ul class="space-y-4 text-left">
+            <li class="flex items-center space-x-3 rtl:space-x-reverse">
+              <svg
+                class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Increased social interaction</span>
+            </li>
+            <li class="flex items-center space-x-3 rtl:space-x-reverse">
+              <svg
+                class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Designed to give you the best possible experience</span>
+            </li>
+            <li class="flex items-center space-x-3 rtl:space-x-reverse">
+              <svg
+                class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Your privacy is our priority</span>
+            </li>
+            <li class="flex items-center space-x-3 rtl:space-x-reverse">
+              <svg
+                class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Committed to the truth</span>
+            </li>
+            <li class="flex items-center space-x-3 rtl:space-x-reverse">
+              <svg
+                class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>We care about our credibility and your trust</span>
+            </li>
+          </ul>
         </p>
         <div className="flex justify-center col-span-2">
           <SponsorButton isWhite />
