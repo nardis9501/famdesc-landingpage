@@ -21,7 +21,6 @@ export default function TestimonialsSlider(props) {
           animate="show"
           exit="hidden"
         >
-          Some contributors <br />
           <span
             className={`${
               color === "blue"
@@ -31,7 +30,7 @@ export default function TestimonialsSlider(props) {
                 : ""
             }`}
           >
-            testimonials
+            Testimonials
           </span>
         </motion.h1>
 
