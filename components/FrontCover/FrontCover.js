@@ -52,7 +52,7 @@ export default function FrontCover(props) {
             <Image
               priority
               className="rounded-lg"
-              src="/familie-cover.jpeg"
+              src="/familie-cover.webp"
               alt="familie-cover"
               width={450}
               height={500}
