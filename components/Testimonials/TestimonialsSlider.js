@@ -64,7 +64,7 @@ export default function TestimonialsSlider(props) {
                     src={avatarUrl}
                     alt={username}
                     width={100}
-                    height={200}
+                    height={100}
                     className="rounded-full mx-auto"
                   />
                   <h4 className="text-center">{username}</h4>
