@@ -17,10 +17,28 @@ export default function VideoSection(props) {
           </h2>
         </div>
         <div className="flex flex-col justify-center items-center my-10">
-          <iframe
+          <video
             className="w-full h-full aspect-video rounded-lg border-none"
-            src="/promo.mp4"
-          ></iframe>
+            width="320"
+            height="240"
+            controls
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="none"
+          >
+            <source src="/promo.webm" type="video/webm" />
+            <source src="/promo.mp4" type="video/mp4" />
+            <p>
+              Your browser does not support HTML video. Here is a
+              <a href="/promo.webp" download="FamilyTree-video.mp4">
+                link to the video
+              </a>{" "}
+              instead.
+            </p>
+          </video>
+
           <p className="p-2 font-semibold">Video of FamilyTree</p>
         </div>
 
