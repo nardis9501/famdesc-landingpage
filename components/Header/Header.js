@@ -6,18 +6,42 @@ import { useAppContext } from "@/app/providers";
 import SelectColor from "../ChangeColor/SelectColor";
 import Image from "next/image";
 import SponsorButton from "../sponsor/SponsorButton";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Header(props) {
   const { color } = useAppContext();
   const [isOpenMenu, setIsOpenMenu] = useState(false);
+  const [showHeader, setShowHeader] = useState(true);
+  const [prevScroll, setPrevScroll] = useState(0);
   const handleClick = () => {
     setIsOpenMenu(!isOpenMenu);
   };
+
+  const onScrollHeader = () => {
+    const currentScrollPos = window.scrollY;
+
+    if (currentScrollPos > prevScroll) {
+      setShowHeader(false);
+    } else {
+      setShowHeader(true);
+    }
+    setPrevScroll(currentScrollPos);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", onScrollHeader);
+
+    return () => {
+      window.removeEventListener("scroll", onScrollHeader);
+    };
+  }, [prevScroll]);
+
   return (
     <>
       <motion.header
-        className="fixed z-30 w-full left-0 top-0 border-y-2 border-solid border-t-salmon  border-b-bluePantone  bg-slate-200/75 dark:bg-gray-900/75 backdrop-blur-sm p-2"
+        className={`transition-all ease-in-out delay-300 ${
+          !showHeader && "-mt-20"
+        } fixed z-30 w-full left-0 top-0  border-y-2 border-solid border-t-salmon  border-b-bluePantone  bg-slate-200/75 dark:bg-gray-900/75 backdrop-blur-sm p-2`}
         variants={fadeIn("down", 0.5)}
         initial="hidden"
         animate="show"
