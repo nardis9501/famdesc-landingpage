@@ -40,8 +40,8 @@ export default function Header(props) {
     <>
       <motion.header
         className={`transition-all ease-in-out delay-300 ${
-          !showHeader && "-mt-20"
-        } fixed z-30 w-full left-0 top-0  border-y-2 border-solid border-t-salmon  border-b-bluePantone  bg-slate-200/75 dark:bg-gray-900/75 backdrop-blur-sm p-2`}
+          !showHeader && "-mt-20 lg:mt-0"
+        }  fixed z-30 w-full left-0 top-0  border-y-2 border-solid border-t-salmon  border-b-bluePantone  bg-slate-200/75 dark:bg-gray-900/75 backdrop-blur-sm p-2`}
         variants={fadeIn("down", 0.5)}
         initial="hidden"
         animate="show"
