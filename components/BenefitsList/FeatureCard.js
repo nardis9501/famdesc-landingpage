@@ -1,5 +1,5 @@
 import { useAppContext } from "@/app/providers";
-import { features } from "./list.data";
+import { benefits, features } from "./list.data";
 import Image from "next/image";
 import GridBackground from "../Grid-background/GridBackground";
 import { useState } from "react";
@@ -16,7 +16,7 @@ export default function FeatureCard(props) {
   };
   return (
     <>
-      {features.map(({ id, title, text, img }) => {
+      {benefits.map(({ id, title, text, img }) => {
         counter = counter + 1;
         return (
           <div key={id}>
