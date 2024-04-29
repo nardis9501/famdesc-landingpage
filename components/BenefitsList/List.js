@@ -17,10 +17,10 @@ export default function List(props) {
               key={id}
               className={`${
                 color === "blue" &&
-                "bg-blue-500/55 hover:bg-blue-100 hover:text-blue-600"
+                "bg-blue-500 hover:bg-blue-100 hover:text-blue-600"
               } ${
                 color === "red" &&
-                "bg-red-500/55 hover:bg-red-100 hover:text-red-600"
+                "bg-red-500 hover:bg-red-100 hover:text-red-600"
               } p-2 my-4 text-left hover:animate-tilt animate-delay-300 animate-duration-slow rounded-lg font-semibold text-gray-700 dark:text-white`}
             >
               {title}
