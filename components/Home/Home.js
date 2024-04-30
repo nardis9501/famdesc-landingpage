@@ -66,7 +66,7 @@ export default function Home(props) {
                   color === "blue" && "bg-blue-300"
                 } ${color === "red" && "bg-red-300"}`}
               >
-                1D: Te closing argument statemnet
+                Thank you for being part of the Famdesc startup!
               </h2>
             </main>
 
