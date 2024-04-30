@@ -39,7 +39,7 @@ export default function FeatureCard(props) {
                     height={300}
                     className={` ${
                       !isEven(id) ? "md:order-last" : ""
-                    } mx-auto mb-8 md:mb-0 h-80 rounded-md`}
+                    } mx-auto mb-8 md:mb-0 h-80 object-cover rounded-md`}
                   />
                   <p
                     className={`md:mx-10 rounded-lg p-10 bg-white dark:backdrop-blur dark:bg-slate-900/30 dark:ring-1 dark:ring-inset dark:ring-white/10 shadow-xl`}
