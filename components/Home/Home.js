@@ -12,6 +12,7 @@ import SponsorButton from "../sponsor/SponsorButton";
 import OpenSourceBanner from "../Banner/OpenSourceBanner";
 import GridBackground from "../Grid-background/GridBackground";
 import VideoSection from "../Video-Section/VideoSection";
+import Footer from "../Footer/Footer";
 export default function Home(props) {
   const { color } = useAppContext();
 
@@ -68,9 +69,8 @@ export default function Home(props) {
                 1D: Te closing argument statemnet
               </h2>
             </main>
-            <footer className="flex items-center justify-center h-20">
-              aqui va el footer
-            </footer>
+
+            <Footer />
           </motion.div>
         </div>
       </div>
