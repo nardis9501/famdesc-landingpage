@@ -56,7 +56,7 @@ export default function Home(props) {
                   color === "blue" && "bg-blue-300"
                 } ${color === "red" && "bg-red-300"}`}
               >
-                1C: A reinforcement statemnt maintain interest
+                Dive into Famdesc: Discover what awaits you!
               </h2>
               <section>
                 <FeatureCard />
