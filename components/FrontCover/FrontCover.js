@@ -17,21 +17,22 @@ export default function FrontCover(props) {
             : ""
         }`}
       >
-        <section className="md:grid grid-cols-2 h-full max-w-[1300px] px-2">
+        <section className="md:grid grid-cols-3 h-full max-w-[1300px] px-2">
           <motion.div
             variants={fadeIn("right", 0.5)}
             initial="hidden"
             animate="show"
             exit={"hidden"}
-            className="absolute top-0 left-0 mt-24 sm:mt-32 px-4 md:mt-0  md:relative z-10 flex flex-col h-full w-full"
+            className="absolute col-span-2 top-0 left-0 mt-24 sm:mt-32 px-4 md:mt-0  md:relative z-10 flex flex-col h-full w-full"
           >
             <h1
-              className={`font-medium my-3 text-4xl md:text-6xl lg:text-7xl text-black dark:text-slate-100`}
+              className={`flex flex-col font-medium my-3 text-3xl md:text-4xl lg:text-5xl text-black dark:text-slate-100`}
             >
-              The new Network for families
+              <span>Build, Share, Preserve:</span>
+              Famdesc - Your Digital Haven for Family Moments,
             </h1>
             <h2
-              className={`text-2xl md:text-4xl font-medium text-black dark:text-slate-200 ${
+              className={`text-xl md:text-3xl font-medium text-black dark:text-slate-200 ${
                 color === "blue"
                   ? "text-blue-500 md:text-blue-700"
                   : color === "red"
@@ -39,7 +40,8 @@ export default function FrontCover(props) {
                   : ""
               }`}
             >
-              A closer and high value network
+              Discover a New Way to Preserve and Share Your Family&apos;s
+              Precious Moments
             </h2>
           </motion.div>
           <motion.div
