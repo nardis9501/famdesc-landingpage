@@ -32,7 +32,7 @@ export default function FrontCover(props) {
               Famdesc - Your Digital Haven for Family Moments,
             </h1>
             <h2
-              className={`text-xl md:text-3xl font-medium text-black dark:text-slate-200 ${
+              className={`text-xl md:text-3xl font-medium text-black dark:text-slate-300 ${
                 color === "blue"
                   ? "text-blue-500 md:text-blue-700"
                   : color === "red"
