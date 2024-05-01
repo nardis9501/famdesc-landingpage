@@ -29,7 +29,7 @@ export default function FrontCover(props) {
               className={`flex flex-col font-medium my-3 text-3xl md:text-4xl lg:text-5xl text-black dark:text-slate-100`}
             >
               <span>Build, Share, Preserve:</span>
-              Famdesc - Your Digital Haven for Family Moments,
+              Famdesc - Your Digital Haven for Family Moments
             </h1>
             <h2
               className={`text-xl md:text-3xl font-medium text-black dark:text-slate-300 ${
