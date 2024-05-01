@@ -31,7 +31,7 @@ export default function FeatureCard(props) {
                 }
               >
                 <h4 className="text-4xl font-bold mb-6">{shortTitle}</h4>
-                <div className="grid grid-cols-1  md:grid-cols-2 text-2xl">
+                <div className="grid grid-cols-1  md:grid-cols-2">
                   <Image
                     src={img}
                     alt={shortTitle + " image"}
