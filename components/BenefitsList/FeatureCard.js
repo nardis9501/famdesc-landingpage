@@ -16,7 +16,7 @@ export default function FeatureCard(props) {
   };
   return (
     <>
-      {benefits.map(({ id, title, text, img }) => {
+      {benefits.map(({ id, shortTitle, text, img }) => {
         counter = counter + 1;
         return (
           <div key={id}>
@@ -30,11 +30,11 @@ export default function FeatureCard(props) {
                   "p-2 md:p-6 my-20 md:mx-0  text-gray-950 dark:text-white"
                 }
               >
-                <h4 className="text-4xl font-bold mb-6">{title}</h4>
+                <h4 className="text-4xl font-bold mb-6">{shortTitle}</h4>
                 <div className="grid grid-cols-1  md:grid-cols-2 text-2xl">
                   <Image
                     src={img}
-                    alt={title + " image"}
+                    alt={shortTitle + " image"}
                     width={500}
                     height={300}
                     className={` ${
