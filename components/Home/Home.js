@@ -1,4 +1,3 @@
-import Form from "../Call-To-Action/Form";
 import Header from "../Header/Header";
 import { motion } from "framer-motion";
 import Testimonials from "../Testimonials/Testimonials";
@@ -8,7 +7,6 @@ import { fadeIn } from "@/utils/motionTransitions";
 import TestimonialsSlider from "../Testimonials/TestimonialsSlider";
 import FeatureCard from "../BenefitsList/FeatureCard";
 import FrontCover from "../FrontCover/FrontCover";
-import SponsorButton from "../sponsor/SponsorButton";
 import OpenSourceBanner from "../Banner/OpenSourceBanner";
 import GridBackground from "../Grid-background/GridBackground";
 import VideoSection from "../Video-Section/VideoSection";
@@ -31,9 +29,6 @@ export default function Home(props) {
             animate="show"
             exit={"hidden"}
           >
-            <div className="sticky top-2 z-20">
-              <Form />
-            </div>
             <main>
               <GridBackground backdropBottom heroImageNumber={7}>
                 <OpenSourceBanner />
