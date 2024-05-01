@@ -22,7 +22,7 @@ export default function Home(props) {
       <FrontCover />
 
       <div
-        className={`conteiner relative m-auto  md:max-w-[1350px]  rounded-lg selection:bg-salmon selection:text-bluePantone`}
+        className={`conteiner relative m-auto mt-4 md:max-w-[1350px]  rounded-lg selection:bg-salmon selection:text-bluePantone`}
       >
         <div className={`flex flex-col items-center w-full`}>
           <motion.div
