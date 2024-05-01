@@ -12,7 +12,7 @@ export default function VideoSection(props) {
         } ${color === "red" && "bg-red-500"}`}
       >
         <div className="flex justify-center col-span-2">
-          <h2 className="text-4xl font-semibold capitalize">
+          <h2 className="px-4 md:px-0 text-3xl font-semibold capitalize">
             Discover Famdesc: Our Vision and Core Values.
           </h2>
         </div>
@@ -42,7 +42,7 @@ export default function VideoSection(props) {
           <p className="p-2 font-semibold">Video of FamilyTree</p>
         </div>
 
-        <div className="flex flex-col my-10 md:ml-4 lg:ml-20 text-2xl lg:leading-9">
+        <div className="flex flex-col px-4 md:px-0 my-10 md:ml-4 lg:ml-20 text-2xl lg:leading-9">
           <ul className="space-y-4 text-left">
             <li className="flex items-center space-x-3 rtl:space-x-reverse">
               <svg
