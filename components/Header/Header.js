@@ -56,7 +56,7 @@ export default function Header(props) {
         <div className="flex flex-col sm:flex-row m-auto max-w-[1400px] items-start sm:justify-between sm:items-center px-4 py-1 rounded-md">
           <div className="flex justify-between w-full">
             <Image
-              className="hidden md:inline-block"
+              className="hidden md:inline-block bg-white/95 dark:bg-inherit p-1 rounded-md"
               priority
               src="/LogoPrincipal.svg"
               alt="Famdesc logo"
