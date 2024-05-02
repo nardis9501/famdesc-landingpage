@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Capa_2"
+   data-name="Capa 2"
+   viewBox="0 0 96.41 96.41"
+   version="1.1"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="8.4845967"
+     inkscape:cx="42.194109"
+     inkscape:cy="56.926689"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Capa_2" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .cls-1 {
+        fill: #0062aa;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #333;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #e6816b;
+      }
+    </style>
+  </defs>
+  <g
+     id="Capa_1-2"
+     data-name="Capa 1"
+     transform="matrix(1.1573646,0,0,1.1507851,-10.385704,-7.1732974)">
+    <g
+       id="g5">
+      <path
+         class="cls-2"
+         d="M 82.6,23.57 C 62.4,3.85 28.35,10.51 19.77,37.88 c -3.15,10.1 -1.41,21.57 4.6,30.3 13.39,19.77 41.55,21.13 58.35,4.51 C 73.76,87.15 54.65,93.38 38.44,88.15 16.27,81.22 4.12,57.23 11.31,35.22 15.26,22.6 25.67,12.29 38.25,8.31 54.39,3.08 73.65,9.14 82.61,23.57 v 0 z"
+         id="path1" />
+      <g
+         id="g4" />
+    </g>
+    <rect
+       class="cls-3"
+       x="0.5"
+       y="0.5"
+       width="95.410004"
+       height="95.410004"
+       id="rect5" />
+  </g>
+  <g
+     id="Capa_1-2-7"
+     data-name="Capa 1"
+     transform="matrix(0.25033568,0,0,0.27762373,27.48347,24.506286)">
+    <g
+       id="g3">
+      <path
+         class="cls-1"
+         d="M 69.65,140.31 C 42.79,137.2 23.24,127.79 11.81,112.77 -1.3,95.57 -3.73,71.03 5.71,40.23 c 30.95,4.55 59.36,20.56 65.94,55.62 2.33,12.34 1.93,27.06 -2,44.46 z"
+         id="path1-5"
+         style="fill:#0e67a4;stroke-width:0px" />
+      <path
+         class="cls-1"
+         d="M 184.83,31.47 C 114.97,38.73 67.9,75.84 78.62,170.94 175.92,167.11 201.55,105.26 184.83,31.47 Z"
+         id="path2"
+         style="fill:#0e67a4;stroke-width:0px" />
+      <path
+         class="cls-2"
+         d="M 82.41,80.46 C 110.66,53.69 110.37,20.65 81.9,0 58.07,22.42 48.12,53.43 82.41,80.46 Z"
+         id="path3"
+         style="fill:#e6816b;stroke-width:0px" />
+    </g>
+  </g>
+</svg>
