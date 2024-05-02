@@ -66,6 +66,7 @@ export default function Header(props) {
             <div className="md:hidden flex items-center justify-center">
               <Image
                 priority
+                className="bg-white dark:bg-inherit rounded-full p-0.5"
                 src="/logo.svg"
                 alt="Famdesc logo"
                 width={45}
