@@ -11,6 +11,13 @@ import Image from "next/image";
 
 export default function TestimonialsSlider(props) {
   const { color } = useAppContext();
+  function truncateString(string, maxLength) {
+    if (string.length > maxLength) {
+      return string.substring(0, maxLength - 3) + "...";
+    } else {
+      return string;
+    }
+  }
   return (
     <>
       <div className="flex flex-col justify-center text-gray-900 dark:text-white mt-10">
@@ -71,7 +78,9 @@ export default function TestimonialsSlider(props) {
                   <h5 className="text-center text-gray-500 dark:text-gray-400">
                     {job}
                   </h5>
-                  <p className="mt-5 text-center">{testimonial}</p>
+                  <p className="mt-5 text-center">
+                    {truncateString(testimonial, 130)}
+                  </p>
                 </SwiperSlide>
               )
             )}
