@@ -55,7 +55,7 @@ export default function TestimonialsSlider(props) {
               disableOnInteraction: false,
             }}
             modules={[Autoplay, Pagination]}
-            className="h-[380px] md:h-[300px] w-[270px] md:w-[545px]"
+            className="h-[370px] sm:h-[300px] w-[290px] sm:w-[545px] lg:h-[350px]"
           >
             {TestimonialsData.map(
               ({ id, username, avatarUrl, testimonial, job }) => (
@@ -71,7 +71,7 @@ export default function TestimonialsSlider(props) {
                   <h5 className="text-center text-gray-500 dark:text-gray-400">
                     {job}
                   </h5>
-                  <p className="mt-5 text-2xl text-center">{testimonial}</p>
+                  <p className="mt-5 text-center">{testimonial}</p>
                 </SwiperSlide>
               )
             )}
