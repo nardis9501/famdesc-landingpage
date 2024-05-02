@@ -59,18 +59,17 @@ export default function Header(props) {
               className="hidden md:inline-block"
               priority
               src="/LogoPrincipal.svg"
-              alt="FamilyTree logo"
+              alt="Famdesc logo"
               width={150}
               height={150}
             />
-            <div className="md:hidden flex items-center justify-center bg-bluePantone p-1 rounded-full">
+            <div className="md:hidden flex items-center justify-center">
               <Image
-                className=" shadow-md bg-white dark:bg-gray-950 p-1 w-9 h-9 rounded-full"
                 priority
                 src="/logo.svg"
-                alt="FamilyTree logo"
-                width={40}
-                height={40}
+                alt="Famdesc logo"
+                width={45}
+                height={45}
               />
             </div>
 
