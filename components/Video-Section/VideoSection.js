@@ -46,7 +46,7 @@ export default function VideoSection(props) {
           <ul className="space-y-4 text-left">
             <li className="flex items-center space-x-3 rtl:space-x-reverse">
               <svg
-                className="flex-shrink-0 w-10 h-10 text-salmon
+                className="flex-shrink-0 w-10 h-10 text-salmon bg-white rounded-full p-1
             "
                 stroke="currentColor"
                 fill="currentColor"
@@ -63,7 +63,7 @@ export default function VideoSection(props) {
             </li>
             <li className="flex items-center space-x-3 rtl:space-x-reverse">
               <svg
-                className="flex-shrink-0 w-10 h-10 text-salmon"
+                className="flex-shrink-0 w-10 h-10 text-salmon bg-white rounded-full p-1"
                 stroke="currentColor"
                 fill="currentColor"
                 strokeWidth="0"
@@ -78,7 +78,7 @@ export default function VideoSection(props) {
             </li>
             <li className="flex items-center space-x-3 rtl:space-x-reverse">
               <svg
-                className="flex-shrink-0 w-10 h-10 text-salmon shadow-salmon"
+                className="flex-shrink-0 w-10 h-10 text-salmon bg-white rounded-full p-1 shadow-salmon"
                 stroke="currentColor"
                 fill="currentColor"
                 strokeWidth="0"
@@ -93,7 +93,7 @@ export default function VideoSection(props) {
             </li>
             <li className="flex items-center space-x-3 rtl:space-x-reverse">
               <svg
-                className="flex-shrink-0 w-10 h-10 text-salmon"
+                className="flex-shrink-0 w-10 h-10 text-salmon bg-white rounded-full p-1"
                 stroke="currentColor"
                 fill="currentColor"
                 strokeWidth="0"
