@@ -39,7 +39,7 @@ export default function VideoSection(props) {
             </p>
           </video>
 
-          <p className="p-2 font-semibold">Video of FamilyTree</p>
+          <p className="p-2 font-semibold">Video of Famdesc</p>
         </div>
 
         <div className="flex flex-col px-4 md:px-0 my-10 md:ml-4 lg:ml-20 text-2xl lg:leading-9">
