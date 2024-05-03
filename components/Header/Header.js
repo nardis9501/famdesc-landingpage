@@ -60,7 +60,7 @@ export default function Header(props) {
               priority
               src="/LogoPrincipal.svg"
               alt="Famdesc logo"
-              width={150}
+              width={170}
               height={150}
             />
             <div className="md:hidden flex items-center justify-center">
