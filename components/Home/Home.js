@@ -47,19 +47,20 @@ export default function Home(props) {
               </section>
 
               <h2
-                className={`flex items-center justify-center h-20 text-3xl  shadow-md ${
-                  color === "blue" && "bg-blue-300"
-                } ${color === "red" && "bg-red-300"}`}
+                className={`flex justify-center items-center w-full p-4 font-medium my-3 text-3xl md:text-4xl lg:text-5xl shadow-md ${
+                  color === "blue" && "bg-blue-500"
+                } ${color === "red" && "bg-red-500"}`}
               >
                 Dive into Famdesc: Discover what awaits you!
               </h2>
               <section>
                 <FeatureCard />
               </section>
+
               <h2
-                className={`flex items-center justify-center h-20 text-3xl shadow-md ${
-                  color === "blue" && "bg-blue-300"
-                } ${color === "red" && "bg-red-300"}`}
+                className={`flex justify-center items-center w-full p-4 font-medium my-3 text-3xl md:text-4xl lg:text-5xl shadow-md ${
+                  color === "blue" && "bg-blue-500"
+                } ${color === "red" && "bg-red-500"}`}
               >
                 Thank you for being part of the Famdesc startup!
               </h2>
