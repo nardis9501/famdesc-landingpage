@@ -7,7 +7,7 @@ export const benefits = [
       "It allows families to connect and share special moments, strengthening family ties across time and distance.",
     text2:
       "In addition, Famdesc offers the opportunity to stay in touch, facilitating continuous communication between family members, no matter where they are.",
-    img: "/interaction.webp",
+    img: "/benefits/benefit1.avif",
   },
   {
     id: 1,
@@ -16,7 +16,7 @@ export const benefits = [
     text1: "Share meaningful moments.",
     text2:
       "Users can share photos, videos and special memories on Famdesc, creating a digital archive of family history that will live on for generations to come.",
-    img: "/ui-ux.webp",
+    img: "/benefits/benefit2.avif",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ export const benefits = [
       "Famdesc promotes a safe environment where users can share their experiences openly.",
     text2:
       "We are committed to eliminating hate speech and encouraging authenticity in every interaction.",
-    img: "/truth.webp",
+    img: "/benefits/benefit3.avif",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ export const benefits = [
       "Famdesc facilitates connections and sharing among people of all ages, fostering intergenerational interaction.",
     text2:
       " It promotes the exchange of knowledge and experiences between different generations within the family, enriching the collective wisdom of the family unit.",
-    img: "/OpenSource.webp",
+    img: "/benefits/benefit4.avif",
   },
 ];
 
