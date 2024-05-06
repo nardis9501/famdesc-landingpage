@@ -9,7 +9,7 @@ export default function FrontCover(props) {
   return (
     <>
       <div
-        className={`grid place-content-center drop-shadow-none pt-40 pb-20 bg-gradient-to-bl  to-slate-50 dark:to-gray-950 ${
+        className={`lg:h-screen grid place-content-center drop-shadow-none pt-56 pb-20 bg-gradient-to-b to-slate-50 dark:to-slate-900 ${
           color === "blue"
             ? "from-blue-500 via-blue-500/80 dark:from-blue-700/90 dark:via-blue-700/90"
             : color === "red"
@@ -61,9 +61,8 @@ export default function FrontCover(props) {
             />
           </motion.div>
         </section>
-        <div className="inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-slate-50 pt-32 pb-8 pointer-events-none dark:from-gray-900 absolute"></div>
       </div>
-      <div className="inset-x-0 flex justify-center bg-gradient-to-b from-slate-50 pt-16 pb-8 pointer-events-none dark:from-gray-900"></div>
+      <div className="lg:hidden inset-x-0 flex justify-center bg-gradient-to-b from-slate-50 pt-16 pb-8 pointer-events-none dark:from-slate-900"></div>
     </>
   );
 }
