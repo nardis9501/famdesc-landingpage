@@ -11,7 +11,7 @@ export default function FrontCover(props) {
       <div
         className={`lg:h-screen grid place-content-center drop-shadow-none pt-56 pb-20 mb-20 lg:mb-0 bg-gradient-to-b lg:bg-gradient-radial to-slate-50 dark:to-slate-900 ${
           color === "blue"
-            ? "from-blue-500 via-blue-500/80 dark:from-blue-700/90 dark:via-blue-700/90"
+            ? "from-blue-500 via-blue-500/80 dark:from-blue-700/90 dark:via-blue-950/90"
             : color === "red"
             ? "from-red-500 via-red-500/80 dark:from-red-700/90 dark:via-red-950/90"
             : ""
