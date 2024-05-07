@@ -13,7 +13,7 @@ export default function OpenSourceBanner(props) {
             target="_blank"
             className="flex items-center gap-1 hover:text-salmon"
           >
-            Proudly Open Source yor You
+            Open Source for You
             <svg
               className={`octicon octicon-mark-github fill-current mx-4 ${
                 color === "blue"
