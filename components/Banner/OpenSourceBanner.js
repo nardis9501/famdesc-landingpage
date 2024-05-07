@@ -15,7 +15,7 @@ export default function OpenSourceBanner(props) {
           >
             Open Source for You
             <svg
-              className={`octicon octicon-mark-github fill-current mx-4 ${
+              className={`octicon octicon-mark-github fill-current ml-4 ${
                 color === "blue"
                   ? "text-blue-500"
                   : color === "red"
