@@ -11,6 +11,7 @@ import OpenSourceBanner from "../Banner/OpenSourceBanner";
 import GridBackground from "../Grid-background/GridBackground";
 import VideoSection from "../Video-Section/VideoSection";
 import Footer from "../Footer/Footer";
+import DonationCard from "../sponsor/DonationCard";
 export default function Home(props) {
   const { color } = useAppContext();
 
@@ -35,6 +36,8 @@ export default function Home(props) {
                 <VideoSection />
                 <TestimonialsSlider />
               </GridBackground>
+
+              <DonationCard />
               <section
                 className={`grid grid-cols-1 md:grid-cols-2 p-2 md:p-4 ${
                   color === "blue" && "text-blue-50"
