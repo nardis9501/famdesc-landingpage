@@ -61,7 +61,7 @@ export default function Header(props) {
               src="/LogoPrincipal.svg"
               alt="Famdesc logo"
               width={170}
-              height={150}
+              height={45}
             />
             <div className="md:hidden flex items-center justify-center">
               <Image
@@ -115,7 +115,7 @@ export default function Header(props) {
           <div
             className={`${
               !isOpenMenu ? "hidden" : ""
-            } sm:inline-flex flex flex-col sm:flex-row items-start gap-2 sm:items-center w-full md:w-auto mt-4 sm:mt-0`}
+            } sm:inline-flex flex flex-col sm:flex-row items-start gap-2 sm:items-center justify-center w-full md:w-auto mt-4 sm:mt-0`}
           >
             <DarkMode />
 
