@@ -8,6 +8,8 @@ export const benefits = [
     text2:
       "In addition, Famdesc offers the opportunity to stay in touch, facilitating continuous communication between family members, no matter where they are.",
     img: "/benefits/benefit1.avif",
+    phrase:
+      "Together we build a lasting family legacy - help us keep your family's story alive!",
   },
   {
     id: 1,
@@ -17,6 +19,8 @@ export const benefits = [
     text2:
       "Users can share photos, videos and special memories on Famdesc, creating a digital archive of family history that will live on for generations to come.",
     img: "/benefits/benefit2.avif",
+    phrase:
+      "Every photo, every memory, a part of our shared history. Your contribution keeps our family narrative alive.",
   },
   {
     id: 2,
@@ -27,6 +31,8 @@ export const benefits = [
     text2:
       "We are committed to eliminating hate speech and encouraging authenticity in every interaction.",
     img: "/benefits/benefit3.avif",
+    phrase:
+      "In a safe and authentic space, we celebrate our family differences and connections. Your support makes our trusted community possible.",
   },
   {
     id: 3,
@@ -37,6 +43,8 @@ export const benefits = [
     text2:
       " It promotes the exchange of knowledge and experiences between different generations within the family, enriching the collective wisdom of the family unit.",
     img: "/benefits/benefit4.avif",
+    phrase:
+      "Connecting generations, sharing wisdom and love. Your gift drives our mission to unite families, no matter the distance.",
   },
 ];
 
