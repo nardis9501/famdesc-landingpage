@@ -43,10 +43,10 @@ export default function Header(props) {
           !showHeader && "-mt-20 lg:mt-0"
         } ${
           prevScroll <= 90 && color === "blue"
-            ? "bg-blue-400/90"
+            ? "bg-white"
             : prevScroll <= 90 && color === "red"
-            ? "bg-red-400/90"
-            : "bg-slate-200/75"
+            ? "bg-white"
+            : "bg-white/75"
         } fixed z-30 w-full left-0 top-0  border-y-2 border-solid border-t-salmon  border-b-bluePantone dark:bg-gray-900/75 backdrop-blur-sm p-2`}
         variants={fadeIn("down", 0.5)}
         initial="hidden"
