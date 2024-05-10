@@ -55,22 +55,31 @@ export default function Header(props) {
       >
         <div className="flex flex-col sm:flex-row m-auto max-w-[1400px] items-start sm:justify-between sm:items-center px-4 py-1 rounded-md">
           <div className="flex justify-between w-full">
-            <Image
-              className="hidden md:inline-block bg-white/95 dark:bg-inherit p-1 rounded-md"
-              priority
-              src="/LogoPrincipal.svg"
-              alt="Famdesc logo"
-              width={170}
-              height={45}
-            />
+            <div className="hidden md:flex ">
+              <Image
+                className="mr-2"
+                priority
+                src="/isotype.svg"
+                alt="Famdesc logo"
+                width={40}
+                height={40}
+              />
+              <Image
+                priority
+                src="/logotype.svg"
+                alt="Famdesc logo"
+                width={140}
+                height={40}
+              />
+            </div>
+
             <div className="md:hidden flex items-center justify-center">
               <Image
                 priority
-                className="bg-white dark:bg-inherit rounded-full p-0.5"
-                src="/logo.svg"
+                src="/avatar-isotype.svg"
                 alt="Famdesc logo"
-                width={45}
-                height={45}
+                width={40}
+                height={40}
               />
             </div>
 
