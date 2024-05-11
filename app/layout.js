@@ -7,7 +7,14 @@ export const metadata = {
   title:
     "Build, Share, Preserve: Famdesc - Your Digital Haven for Family Moments",
   description:
-    "Join Famdesc to build your family tree, share cherished memories, and preserve the moments that matter most. Connect with loved ones in your digital space dedicated to family moments.",
+    "Join Famdesc to build your family tree, share cherished memories and preserve the moments that matter most. Connect with loved ones in your digital space dedicated to family moments.",
+  openGraph: {
+    title: "Famdesc - Your Digital Haven for Family Moments",
+    description:
+      "Join Famdesc to build your family tree, share cherished memories and preserve the moments that matter most.",
+    url: "famdesc.com",
+    siteName: "Famdesc",
+  },
 };
 
 export default function RootLayout({ children }) {
