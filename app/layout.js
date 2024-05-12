@@ -12,8 +12,16 @@ export const metadata = {
     title: "Famdesc - Your Digital Haven for Family Moments",
     description:
       "Join Famdesc to build your family tree, share cherished memories and preserve the moments that matter most.",
-    url: "famdesc.com",
+    url: "https://famdesc.com",
     siteName: "Famdesc",
+    images: [
+      {
+        url: "https://famdesc.com/open-graph-meta-tags/isotype.avif",
+        with: "200",
+        height: "200",
+        alt: "Famdesc logo",
+      },
+    ],
   },
 };
 
