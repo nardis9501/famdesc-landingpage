@@ -14,6 +14,7 @@ export const metadata = {
       "Join Famdesc to build your family tree, share cherished memories and preserve the moments that matter most.",
     url: "https://famdesc.com",
     siteName: "Famdesc",
+    type: "website",
     images: [
       {
         url: "https://famdesc.com/open-graph-meta-tags/isotype.avif",
