@@ -17,8 +17,8 @@ export const metadata = {
     images: [
       {
         url: "https://famdesc.com/open-graph-meta-tags/isotype.avif",
-        with: "200",
-        height: "200",
+        with: "1200",
+        height: "630",
         alt: "Famdesc logo",
       },
     ],
