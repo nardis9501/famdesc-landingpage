@@ -24,6 +24,8 @@ export const metadata = {
       },
     ],
   },
+  keywords:
+    "family, genealogy, family memories, social network, share photos, share videos, Famdesc",
 };
 
 export default function RootLayout({ children }) {
