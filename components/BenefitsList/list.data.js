@@ -51,34 +51,40 @@ export const benefits = [
 export const features = [
   {
     id: 0,
-    title: "Increased interaction",
-    shortTitle: "",
-    text1: "",
-    text2: "",
-    img: "/interaction.webp",
+    title: "Interactive family tree building",
+    shortTitle: "family tree building",
+    text1: "Feature to build and explore detailed family trees",
+    text2:
+      "Users can trace their family history and discover connections to distant relatives.",
+    img: "/feature/feature1.avif",
   },
   {
     id: 1,
-    title: "User experience",
-    shortTitle: "",
-    text1: "",
-    text2: "",
-    img: "/ui-ux.webp",
+    title: " Photo and video sharing",
+    shortTitle: " Photo and video sharing",
+    text1: "Users can share photos, videos and special memories on Famdesc.",
+    text2:
+      "Creating a digital archive of family history that will live on for generations to come.",
+    img: "/feature/feature2.avif",
   },
   {
     id: 2,
-    title: "Commitment to truth",
-    shortTitle: "",
-    text1: "",
-    text2: "",
-    img: "/truth.webp",
+    title: "Chat and instant messaging",
+    shortTitle: "Chat and instant messaging",
+    text1:
+      "The platform includes chat and instant messaging features that enable users to communicate",
+    text2:
+      "They allow users to communicate quickly and easily with family and friends, facilitating interaction and the exchange of personal messages.",
+    img: "/feature/feature3.avif",
   },
   {
     id: 3,
-    title: "Credibility and confidence",
-    shortTitle: "",
-    text1: "",
-    text2: "",
-    img: "/OpenSource.webp",
+    title: "Moderation and security policies",
+    shortTitle: "Moderation and security policies",
+    text1:
+      "Famdesc implements moderation and safety policies to ensure a safe and respectful environment for all users.",
+    text2:
+      " It includes the elimination of hate speech and the promotion of authenticity and truth in shared content.",
+    img: "/feature/feature4.avif",
   },
 ];
