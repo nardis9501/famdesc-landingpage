@@ -17,7 +17,7 @@ export const benefits = [
     shortTitle: "family legacy",
     text1: "Share meaningful moments.",
     text2:
-      "Users can share photos, videos and special memories on Famdesc, creating a digital archive of family history that will live on for generations to come.",
+      "Every photo and video tells a story, and on Famdesc, those stories become a lasting family legacy.",
     img: "/benefits/benefit2.avif",
     phrase:
       "Every photo, every memory, a part of our shared history. Your contribution keeps our family narrative alive.",
