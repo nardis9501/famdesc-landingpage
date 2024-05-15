@@ -6,14 +6,8 @@ export default function FeatureSection({
   imgUrl,
   text1,
   text2,
-  id,
+  imgToRight,
 }) {
-  const isEven = (id) => {
-    if (id % 2 === 0) {
-      return true;
-    }
-    return false;
-  };
   return (
     <>
       <section className="p-4 md:p-6 my-20 md:mx-0 text-gray-950 dark:text-white">
@@ -28,7 +22,7 @@ export default function FeatureSection({
             width={500}
             height={300}
             className={` ${
-              !isEven(id) ? "md:order-last" : ""
+              imgToRight ? "md:order-last" : ""
             } mb-8 md:mb-0 w-full  object-cover rounded-md`}
           />
 

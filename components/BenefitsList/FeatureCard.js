@@ -27,6 +27,14 @@ export default function FeatureCard(props) {
                 text2={text2}
               />
               <QuoteBanner phrase={phrase} />
+
+              <FeatureSection
+                imgToRight
+                shortTitle={features[index].title}
+                imgUrl={features[index].img}
+                text1={features[index].text1}
+                text2={features[index].text2}
+              />
             </GridBackground>
           </div>
         );
