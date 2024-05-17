@@ -14,18 +14,14 @@ export default function FeatureCard(props) {
         counter = counter + 1;
         return (
           <div key={id}>
-            <GridBackground
-              backdropTop
-              backdropBottom
-              heroImageNumber={counter}
-            >
+            <GridBackground backdropBottom heroImageNumber={counter}>
               <FeatureSection
-                id={counter}
                 shortTitle={shortTitle}
                 imgUrl={img}
                 text1={text1}
                 text2={text2}
               />
+
               <QuoteBanner phrase={phrase} />
 
               <FeatureSection
