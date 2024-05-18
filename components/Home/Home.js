@@ -65,7 +65,7 @@ export default function Home(props) {
                   color === "blue" && "bg-blue-500"
                 } ${color === "red" && "bg-red-500"}`}
               >
-                Thank you for being part of the Famdesc startup!
+                Thank you for being a part of Famdesc from the very beginning!
               </h2>
             </main>
 
