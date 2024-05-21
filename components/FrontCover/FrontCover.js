@@ -17,13 +17,13 @@ export default function FrontCover(props) {
             : ""
         }`}
       >
-        <section className="md:grid grid-cols-3 h-full max-w-[1300px] px-2">
+        <section className="md:grid lg:gap-20 grid-cols-2 h-full max-w-[1300px] px-2">
           <motion.div
             variants={fadeIn("right", 0.5)}
             initial="hidden"
             animate="show"
             exit={"hidden"}
-            className="absolute col-span-2 top-0 left-0 mt-24 sm:mt-32 px-4 md:mt-0  md:relative z-10 flex flex-col h-full w-full"
+            className="absolute top-0 left-0 mt-24 sm:mt-32 px-4 md:mt-0  md:relative z-10 flex flex-col h-full w-full"
           >
             <h1
               className={`flex flex-col font-medium my-3 text-3xl md:text-4xl lg:text-5xl text-black dark:text-slate-100`}
@@ -49,16 +49,26 @@ export default function FrontCover(props) {
             initial="hidden"
             animate="show"
             exit={"hidden"}
-            className="md:grid place-content-end drop-shadow-xl hidden"
+            className="realtive max-w-max md:grid place-content-end drop-shadow-xl hidden "
           >
             <Image
               priority
-              className="rounded-lg"
-              src="/familie-cover.webp"
-              alt="familie-cover"
-              width={450}
+              className="w-full h-auto rounded-lg drop-shadow-md"
+              src="/images/ia-image.avif"
+              alt="Famdesc Family Image"
+              layout="resposive"
+              width={600}
               height={500}
             />
+            <div
+              className={`absolute inset-0 ${
+                color === "blue"
+                  ? "bg-blue-500"
+                  : color === "red"
+                  ? "bg-red-400"
+                  : "bg-none"
+              } opacity-25`}
+            ></div>
           </motion.div>
         </section>
       </div>
