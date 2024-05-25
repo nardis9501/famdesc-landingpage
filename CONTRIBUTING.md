@@ -323,7 +323,7 @@ Pronto estaré combinando tus cambios (haciendo _merge_) con la rama master de e
 
 Festeja tu contribución y compártela con tus amigos y seguidores yendo a [web app](https://firstcontributions.github.io/#social-share).
 
-También podrías unirte a nuestro _equipo_ de Slack en caso de que necesites ayuda o tengas alguna pregunta. [Únete a nuestro Discord](https://discord.com/channels/1244297608420261983/1244332020457275482).
+También podrías unirte a nuestro _equipo_ de Discord en caso de que necesites ayuda o tengas alguna pregunta. [Únete a nuestro Discord](https://discord.com/channels/1244297608420261983/1244332020457275482).
 
 ## Cómo Reportar un Error
 
