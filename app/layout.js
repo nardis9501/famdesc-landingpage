@@ -17,7 +17,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://famdesc.com/open-graph-meta-tags/isotype.avif",
+        url: "https://famdesc.com/open-graph-meta-tags/social.png",
         with: "1200",
         height: "630",
         alt: "Famdesc logo",
