@@ -1,11 +1,10 @@
 import { useAppContext } from "@/app/providers";
-import { useRouter } from "next/navigation";
 
 export default function SponsorButton({ isWhite }) {
   const { color } = useAppContext();
-  const router = useRouter();
+
   const handleClick = () => {
-    router.push("/donation");
+    window.open("https://gofund.me/01851662", "_blank");
   };
   return (
     <>
